@@ -1,0 +1,103 @@
+.banner {
+    width: 10rem;
+    height: 7.333rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+/*儿童中心*/
+.zhongxin{
+    width: 10rem;
+    text-align: center;
+    overflow: hidden;
+    background-color: #fff;
+}
+.zhongxin h4{
+    font-size: 0.48rem;
+    margin-top: 0.853rem;
+    margin-bottom: 0.64rem;
+    color: #DD821E;
+}
+.zhongxin>div{
+    width: 9.36rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.zhongxin>div>ul:nth-child(1),.zhongxin>div>ul:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+}
+.zhongxin>div>ul:nth-child(1) li,.zhongxin>div>ul:nth-child(3) li{
+    width: 3.08rem;
+    height: 3.347rem;
+}
+.zhongxin>div>ul:nth-child(2),.zhongxin>div>ul:nth-child(4){
+    display: flex;
+}
+.zhongxin>div>ul:nth-child(2) li,.zhongxin>div>ul:nth-child(4) li{
+    flex:1;
+    font-size: 0.4rem;
+    color: #C1D454;
+    margin-top: 0.267rem;
+    margin-bottom: 0.613rem;
+}
+/*环境空间*/
+.huanjing{
+    width: 10rem;
+    background-color: #EEEEEE;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 0.4rem;
+}
+.huanjing h4{
+    font-size: 0.48rem;
+    margin-top: 0.867rem;
+    margin-bottom: 0.667rem;
+    color: #DD821E;
+}
+.huanjing>div{
+    width: 9.36rem;
+    margin: 0 auto;
+}
+.huanjing>div>ul>li{
+    width: 2rem;
+    height: 0.96rem;
+    line-height: 0.96rem;
+    text-align: center;
+    float: left;
+    font-size: 0.32rem;
+}
+.bian{
+    border-radius: 0.267rem  0.267rem 0 0 ;
+    background-color: white;
+    color: #DD821E;
+}
+.huanjing>div>div{
+    width: 9.36rem;
+    margin: 0 auto;
+    height: 3.987rem;
+    background-color: white;
+    border-radius: 0 0.267rem  0.267rem  0.267rem ;
+}
+.huanjing>div>div ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.huanjing>div>div .kuai li{
+    width: 2.667rem;
+    height: 2.667rem;
+    margin-top: 0.4rem;
+    border-radius: 0.267rem;
+    background-color: #C1D454;
+}
+.huanjing>div>div .zi li{
+    font-size: 0.32rem;
+    margin-top: 0.267rem;
+}
+.none {
+    display: none;
+}

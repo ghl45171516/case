@@ -1,0 +1,263 @@
+.banner {
+    width: 10rem;
+    height: 7.333rem;
+}
+
+.banner img {
+    width: 10rem;
+    height: 100%;
+}
+/*指导师*/
+.zhidaoshi{
+    width: 10rem;
+    background-color: #eee;
+    text-align: center;
+    overflow: hidden;
+}
+.zhidaoshi>h4{
+    font-size: 0.467rem;
+    margin-top: 0.853rem;
+    margin-bottom: 0.64rem;
+    color: #EB6100;
+}
+.zhidaoshi>ul{
+    display: flex;
+    width: 9.36rem;
+    margin: 0 auto;
+}
+.zhidaoshi>ul li{
+    flex: 1;
+    width: 33.33%;
+    height: 2.507rem;
+}
+.zhidaoshi>ul li span img{
+    width: 100%;
+
+}
+.xia{
+    padding-top: 0.133rem;
+}
+.zhidaoshi>ul li span{
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.zhidaoshi>ul li>p{
+    font-size: 0.267rem;
+    line-height:0.4rem;
+    color: #676767;
+}
+.zhidaoshi>ul li p:nth-child(2){
+    margin-top: 0.133rem;
+}
+.zhidaoshi>div{
+    width: 9.4rem;
+    height: 4rem;
+    margin: 0.4rem auto;
+    border-radius: 0.267rem;
+    box-shadow:0.053rem 0.053rem 0.133rem #ccc ;
+    overflow: hidden;
+}
+.zhidaoshi>div>div:nth-child(1){
+    width: 44%;
+    height: 100%;
+    background-color: #EB6100;
+    float: left;
+    font-size: 2.667rem;
+    color: #F3A066;
+}
+.zhidaoshi>div>div:nth-child(2){
+    width: 54%;
+    height: 100%;
+    float: left;
+    text-align: left;
+}
+.zhidaoshi>div>div:nth-child(2) div{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.zhidaoshi>div>div:nth-child(2) div>h4{
+    font-size: 0.4rem;
+    color: #EB6100;
+    margin: 0.4rem auto;
+}
+.zhidaoshi>div>div:nth-child(2) div>p{
+    font-size: 0.267rem;
+    line-height: 0.4rem;
+}
+/*机构*/
+.jigou{
+    width: 100%;
+    padding-bottom: 0.667rem;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.jigou>h4{
+    font-size: 0.467rem;
+    margin-top: 0.853rem;
+    margin-bottom: 0.64rem;
+    color: #EB6100;
+}
+.jigou>div:nth-child(2){
+    width: 23%;
+    height: 2.427rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    background:url("../image/yuan.png") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.jigou>div:nth-child(2) p{
+    font-size: 0.333rem;
+    color: black;
+    font-weight: 700;
+}
+.jigou>div:nth-child(2) p:nth-child(1){
+    margin-top: 0.467rem;
+}
+.jigou>div:nth-child(3),.jigou>div:nth-child(5){
+    width: 0.667rem;
+    height: 0.667rem;
+    margin: 0 auto;
+}
+.jigou>div:nth-child(4){
+    width: 71%;
+    height: 6.493rem;
+    margin: 0 auto;
+    background:url("../image/Image 20.png") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+.jigou>div:nth-child(4)>h4{
+    font-size: 0.48rem;
+    color: black;
+    margin: 0.533rem auto 0 auto;
+}
+.jigou>div:nth-child(4)>div{
+    width: 4.267rem;
+    margin: 0 auto;
+    text-align: left;
+}
+.jigou>div:nth-child(4)>div>h4{
+    font-size: 0.267rem;
+    margin-top: 0.2rem;
+    margin-bottom:  0.2rem;
+}
+.jigou>div:nth-child(4)>div>p{
+    font-size: 0.267rem;
+    line-height: 0.4rem;
+}
+.jigou>div:nth-child(4)>span:nth-child(2){
+    width: 0.347rem;
+    height: 0.347rem;
+    display: block;
+    position: absolute;
+    top: 1.493rem;
+    left: 1.04rem;
+}
+.jigou>div:nth-child(4)>span:nth-child(3){
+    width: 0.347rem;
+    height: 0.347rem;
+    display: block;
+    position: absolute;
+    top: 4.7rem;
+    left: 1.04rem;
+}
+.jigou>div:nth-child(6){
+    position: relative;
+    width: 93%;
+    height: 6.8rem;
+    margin: 0 auto;
+    background:url("../image/Image 21.png") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.jigou>div:nth-child(6)>h4{
+    font-size: 0.4rem;
+    color: black;
+    margin: 0.533rem auto 0 auto;
+}
+.jigou>div:nth-child(6)>div{
+    width: 6.013rem;
+    margin: 0 auto;
+    text-align: left;
+}
+.jigou>div:nth-child(6)>div>h4{
+    font-size: 0.267rem;
+    margin-top: 0.133rem;
+    margin-bottom:  0.133rem;
+}
+.jigou>div:nth-child(6)>div>p{
+    font-size: 0.267rem;
+    line-height: 0.4rem;
+}
+.jigou>div:nth-child(6)>span{
+    width: 0.347rem;
+    height: 0.347rem;
+    display: block;
+    position: absolute;
+}
+.jigou>div:nth-child(6)>span:nth-child(2){
+    left: 1.227rem;
+    top: 1.32rem;
+}
+.jigou>div:nth-child(6)>span:nth-child(3){
+    left: 1.227rem;
+    top: 2.8rem;
+}
+.jigou>div:nth-child(6)>span:nth-child(4){
+    left: 1.227rem;
+    top: 4.35rem;
+}
+.jigou>div:nth-child(6)>span:nth-child(5){
+    left: 1.227rem;
+    top: 5.4rem;
+}
+/*体系评估*/
+.tixi{
+    width: 100%;
+    height: 6.96rem;
+    background-color: #EEE;
+    overflow: hidden;
+    text-align: center;
+}
+.tixi>h4{
+    font-size: 0.467rem;
+    margin-top: 0.853rem;
+    margin-bottom: 0.64rem;
+    color: #EB6100;
+}
+.tixi>ul{
+    display: flex;
+    width: 9.4rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.tixi>ul li{
+    flex: 1;
+}
+.tixi>ul li span{
+    display: block;
+    width: 1.307rem;
+    height: 1.307rem;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.tixi>ul li>h4{
+    font-size: 0.333rem;
+    margin-top: 0.333rem;
+    color: #EB6100;
+}
+.tixi>ul li>p:nth-child(3){
+    margin-top: 0.133rem;
+}
+.tixi>ul li>p{
+    font-size: 0.267rem;
+    line-height: 0.4rem;
+}

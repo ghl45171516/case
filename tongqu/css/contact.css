@@ -1,0 +1,41 @@
+.banner {
+    width: 100%;
+    height: 7.333rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+/*地址*/
+.dizhi{
+    width: 100%;
+    height: 32.893rem;
+    background-color: #fff;
+    overflow: hidden;
+ }
+.dizhi ul{
+    width: 84%;
+    margin: 0 auto;
+}
+.dizhi ul li:nth-child(1){
+    margin-top: 0.853rem;
+    margin-bottom: 0.72rem;
+}
+.dizhi ul li{
+    margin-bottom: 0.72rem;
+}
+.dizhi ul li h4{
+    font-size: 0.4rem;
+    margin-bottom: 0.333rem;
+}
+.dizhi ul li p{
+    font-size: 0.333rem;
+    line-height: 0.467rem;
+}
+.xia{
+    margin-bottom: 0.333rem;
+}
+.yanse{
+    color: #EE5400;
+}

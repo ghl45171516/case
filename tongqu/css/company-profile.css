@@ -1,0 +1,117 @@
+.banner {
+    width: 10rem;
+    height: 7.333rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+/*一路成长*/
+.qianxing {
+    width: 100%;
+    height: 9.733rem;
+}
+
+.qianxing img {
+    width: 100%;
+    height: 100%;
+}
+/*儿童观*/
+.ertongguan {
+    width: 100%;
+    height: 7.467rem;
+    background-color: #eee;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ertongguan h4 {
+    color: #FFB600;
+    font-size: 0.627rem;
+    margin-top: 0.84rem;
+}
+.ertongguan>p{
+    font-size: 0.32rem;
+    color: #FFB600;
+    margin-top: 0.333rem;
+    margin-bottom: 0.507rem;
+}
+.ertongguan ul{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.ertongguan ul li{
+    width: 28%;
+    height: 2.667rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.ertongguan ul li img{
+    width: 100%;
+    height: 100%;
+}
+.ertongguan div{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.ertongguan div p:nth-child(1){
+    margin-top: 0.293rem;
+}
+.ertongguan div p{
+    font-size: 0.267rem;
+}
+/*育儿观*/
+.yuerguan{
+    width: 100%;
+    height: 12.267rem;
+    text-align: center;
+    overflow: hidden;
+    background-color: #fff;
+}
+.yuerguan h4 {
+    color: #FFB600;
+    font-size: 0.627rem;
+    margin-top: 0.853rem;
+}
+.yuerguan>p{
+    font-size: 0.32rem;
+    color: #FFB600;
+    margin-top: 0.333rem;
+    margin-bottom: 0.64rem;
+}
+.yuerguan ul{
+    width: 94%;
+    display: flex;
+    justify-content:  space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.yuerguan ul li{
+    flex-wrap: wrap;
+    width: 50%;
+    height: 4.773rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.yuerguan ul li div:nth-child(1){
+    width: 3.333rem;
+    height: 3.333rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.yuerguan ul li div img{
+    width: 100%;
+    height: 100%;
+}
+.yuerguan ul li div p{
+    font-size: 0.267rem;
+}
+.yuerguan ul li div p:nth-child(1){
+    margin-top: 0.293rem;
+}

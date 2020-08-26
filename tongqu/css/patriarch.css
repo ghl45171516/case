@@ -1,0 +1,180 @@
+.banner {
+    width: 100%;
+    height: 7.333rem;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+/*理念*/
+.linian{
+    width: 10rem;
+    padding-bottom: 0.667rem;
+    background-color: #eee;
+    text-align: center;
+}
+.linian img{
+    width: 100%;
+    height: 10.813rem;
+    display: block;
+}
+.linian p{
+    font-size: 0.333rem;
+    color: #818181;
+}
+/*规划*/
+.guihua{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.guihua h4{
+    font-size: 0.467rem;
+    margin-top: 0.867rem;
+    margin-bottom: 0.36rem;
+    color: #005B98;
+}
+.guihua p{
+    font-size: 0.267rem;
+}
+.guihua p:nth-child(4){
+    margin-bottom: 0.6rem;
+}
+.guihua img{
+    width: 100%;
+    height: 4.267rem;
+}
+/*<!--儿童体系-->*/
+.tixi{
+    -webkit-user-select: none;
+    width: 10rem;
+    background-color: rgb(238,238,238);
+    padding-bottom: 0.667rem;
+    overflow: hidden;
+}
+.tixi .w{
+    width: 94%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tixi .w h4{
+    margin: 0.867rem 0 0.467rem 0;
+    font-size: 0.467rem;
+    color: rgb(61,149,195);
+}
+.tixi .w .w-ul{
+    margin-top: 0.467rem;
+    width: 9.36rem;
+}
+.tixi .w .w-ul ul{
+    width: 9.36rem;
+    display: flex;
+    justify-content: space-between;
+}
+.tixi .w .w-ul li{
+    width: 2.213rem ;
+    border-radius: 0.133rem;
+    padding-bottom: 0.267rem;
+    background-color:rgb(210,210,210);
+    overflow: hidden;
+}
+
+.tixi .w .w-ul li>span{
+    display: block;
+    color: #fff;
+    font-size: 0.267rem;
+    margin-top: 0.2rem;
+}
+.tixi .w .w-ul>ul>li>p{
+    color:#fff;
+    font-size: 0.2rem;
+    line-height:0.267rem;
+}
+
+.tixi .w .w-ul .blue{
+    background-color:  rgb(61,149,195);
+}
+.tixi .w .w-xiala{
+    width: 100%;
+    height: 5rem;
+}
+.tixi .w  .w-xiala div:nth-child(1){
+    width: 0;
+    height: 0;
+    border: 0.267rem solid;
+    border-color: transparent transparent #fff;
+    margin-top: -0.267rem;
+}
+.tixi .w  .w-xiala div:nth-child(2){
+    width: 100%;
+    height: 4.667rem;
+    border-radius: 0.267rem;
+    background-color: #fff;
+}
+.tixi .w .w-z2,.tixi .w .w-z3,.tixi .w .w-z4{
+    display: none;
+}
+.tixi .w  .w-xiala .w-xiala1{
+    margin-left: 0.867rem;
+}
+.tixi .w  .w-xiala .w-xiala2{
+    margin-left: 3.2rem;
+}
+.tixi .w  .w-xiala .w-xiala3{
+    margin-left: 5.533rem;
+}
+.tixi .w  .w-xiala .w-xiala4{
+    margin-left:8rem;
+}
+/*童趣分享*/
+.zhidaoshi{
+    width: 100%;
+    height: 6.813rem;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.zhidaoshi>h4{
+    font-size: 0.467rem;
+    margin-top: 0.853rem;
+    margin-bottom: 0.64rem;
+    color: #3C95C2;
+}
+
+.zhidaoshi>div{
+    width: 94%;
+    height: 4rem;
+    margin: 0.4rem auto;
+    border-radius: 0.267rem;
+    box-shadow:0.053rem 0.053rem 0.133rem #ccc ;
+    overflow: hidden;
+}
+.zhidaoshi>div>div:nth-child(1){
+    width: 56%;
+    height: 100%;
+    text-align: left;
+    float: left;
+}
+.zhidaoshi>div>div:nth-child(2){
+    width: 44%;
+    height: 100%;
+    float: left;
+    font-size: 2.667rem;
+    background-color: #3C95C2;
+}
+.zhidaoshi>div>div:nth-child(1) div{
+    width: 4.267rem;
+    margin: 0 auto;
+}
+.zhidaoshi>div>div:nth-child(1) div>h4{
+    font-size: 0.4rem;
+    color: #3C95C2;
+    margin-top: 0.427rem;
+    margin-bottom: 0.2rem;
+}
+.zhidaoshi>div>div:nth-child(1) div>p{
+    font-size: 0.32rem;
+    line-height: 0.333rem;
+}

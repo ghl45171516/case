@@ -1,0 +1,108 @@
+.banner {
+    width: 100%;
+    height: 550px;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+/*中心*/
+.zhongxin{
+    width: 100%;
+    height: 862px;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+.zhongxin h4{
+    font-size: 35px;
+    color: #DE8422;
+    margin-top: 65px;
+    margin-bottom: 48px;
+}
+.zhongxin ul{
+    display: flex;
+    width: 93%;
+    margin: 0 auto;
+}
+.zhongxin ul:nth-child(2),.zhongxin ul:nth-child(4){
+    justify-content: space-between;
+}
+.zhongxin ul:nth-child(2) li,.zhongxin ul:nth-child(4) li{
+    height: 250px;
+    width: 32%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 5px solid #C1D454;
+}
+.zhongxin ul:nth-child(3) li,.zhongxin ul:nth-child(5) li{
+    width: 33%;
+    font-size: 30px;
+    color:#C1D454 ;
+    margin-top: 20px;
+    margin-bottom: 49px;
+}
+.zhongxin img{
+    width: 100%;
+    height: 100%;
+}
+/*空间*/
+.huanjing{
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: 581px;
+    background-color: #EEEEEE;
+}
+.huanjing h4{
+    font-size: 35px;
+    margin-top: 65px;
+    margin-bottom: 44px;
+    color: #DD821E;
+}
+.huanjing>div{
+    width: 93%;
+    margin: 0 auto;
+}
+.huanjing>div>ul>li{
+    width: 152px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+.bian{
+    border-radius: 20px 20px 0 0 ;
+    background-color: white;
+    color: #DD821E;
+}
+.huanjing>div>div{
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    background-color: white;
+    border-radius: 0 20px 20px 20px;
+}
+.huanjing>div>div ul{
+    width: 100%;
+    display: flex;
+}
+.huanjing>div>div .kuai li{
+    width: 28%;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 33px;
+    border-radius: 20px;
+    background-color: #C1D454;
+}
+.huanjing>div>div .zi li{
+    width: 33.33%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.none{
+    display: none;
+}

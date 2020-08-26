@@ -1,0 +1,136 @@
+.banner {
+    width: 10rem;
+    height: 7.333rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+/*感统教具*/
+.gantong{
+    width: 10rem;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+}
+.gantong>h4{
+    font-size: 0.48rem;
+    margin-top: 0.853rem;
+    margin-bottom: 0.64rem;
+    color: #B10063;
+}
+.gantong>div{
+    width: 9.36rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.gantong>div>ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.gantong>div>ul>li{
+    width: 3.08rem;
+    padding-bottom: 0.267rem;
+    background-color: #EEEEEE;
+    border-radius: 0.133rem;
+
+}
+.fl{
+    margin-left:0.053rem;
+}
+.w-xiala>div:nth-child(1){
+    width: 0;
+    height: 0;
+    border: 0.267rem solid;
+    border-color: transparent transparent #fff;
+    margin-top: -0.267rem;
+    filter: drop-shadow(0 0 0 #000);
+}
+.w-xiala>div:nth-child(2){
+    width:9.2rem;
+
+    padding-bottom: 0.267rem;
+    border-radius: 0.133rem;
+    box-shadow: 0.013rem 0.013rem 0.2rem #D4D4D4;
+    margin: 0 auto;
+    margin-bottom: 0.267rem;
+}
+.gantong .w-xiala .w-xiala1{
+    margin-left: 1.267rem;
+}
+.gantong .w-xiala .w-xiala2{
+    margin-left: 4.4rem;
+}
+.gantong .w-xiala .w-xiala3{
+    margin-left: 7.467rem;
+}
+.w-z2,.w-z3,.w-zz2{
+    display: none;
+}
+.gantong>div>ul>.yanse{
+    background-color: #B10063;
+}
+.gantong>div>ul>li .baise{
+
+    color: white;
+}
+.gantong>div>ul>li h4,.gantong>div>ul>li p{
+    color: #B10063;
+    /*line-height:0.467rem;*/
+    line-height:0.533rem;
+}
+.gantong>div>ul>li h4{
+    font-size: 0.4rem;
+    margin-top:0.267rem;
+    margin-bottom: 0.133rem;
+}
+.gantong>div>ul>li p{
+    font-size: 0.267rem;
+    line-height:0.4rem;
+}
+.gantong .w-xiala>div:nth-child(2){
+    overflow: hidden;
+
+}
+.gantong .w-xiala>div:nth-child(2)>.he{
+    width: 8.293rem;
+    height: 4.107rem;
+    margin: 0.453rem auto 0 auto;
+    border-radius: 0.133rem;
+    overflow: hidden;
+    box-shadow: 0.013rem 0.013rem 0.2rem #D4D4D4;
+}
+.gantong .w-xiala>div:nth-child(2)>.he img{
+    width: 100%;
+    height: 100%;
+}
+.wenzi{
+    text-align: left;
+    width: 7.6rem;
+    margin: 0 auto;
+}
+.wenzi li{
+    margin-top:0.133rem;
+    list-style-type: disc;
+    font-size: 0.32rem;
+    line-height: 0.45rem;
+}
+.gantong .w-xiala>div .da{
+    width: 8.333rem;
+    height: 6.293rem;
+    margin: 0 auto;
+    margin-top: 0.467rem;
+    border-radius: 0.133rem;
+    overflow: hidden;
+}
+.gantong .w-xiala>div .zhengchang{
+    width:8.307rem;
+    height: 4.84rem;
+    margin: 0 auto;
+    margin-top: 0.467rem;
+    border-radius: 0.133rem;
+    overflow: hidden;
+}

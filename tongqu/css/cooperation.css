@@ -1,0 +1,193 @@
+.banner {
+    width: 10rem;
+    height: 7.333rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+/*井喷*/
+.shichang{
+    width: 10rem;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 0.4rem;
+}
+.shichang h4{
+    margin-top: 0.853rem;
+    font-size: 0.48rem;
+    margin-bottom: 0.32rem;
+    color: #4B86EE;
+}
+.shichang>p:nth-child(2){
+    font-size: 0.32rem;
+    color: #CFCFCF;
+    margin-bottom: 0.64rem;
+}
+.shichang>ul{
+    width: 9.36rem;
+    height: 4.4rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.shichang>ul li{
+    width: 3.067rem;
+    border: 0.027rem solid #ccc;
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+
+.shichang span{
+    color:#4B86EE ;
+}
+.shichang h6{
+    margin-top: 0.427rem;
+    text-align: center;
+    font-size: 0.267rem;
+    margin-bottom: 0.133rem;
+}
+.shichang>p{
+    line-height:0.4rem;
+    font-size: 0.32rem;
+}
+.clearfix li .cicun{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.clearfix li .cicun img{
+    width: 100%;
+    height: 100%;
+
+}
+.clearfix li p{
+    line-height:0.4rem;
+    font-size: 0.32rem;
+}
+.xia{
+    padding-bottom: 0.267rem;
+}
+/*早教*/
+.zaojiao{
+    width: 10rem;
+    overflow: hidden;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+.zaojiao h4{
+    margin-top: 0.853rem;
+    font-size: 0.48rem;
+    margin-bottom: 0.32rem;
+    color: #4B86EE;
+}
+.zaojiao>p{
+    font-size: 0.32rem;
+    color: #CFCFCF;
+    margin-bottom: 0.64rem;
+}
+/*竞争力*/
+.jingzhengli{
+    width: 10rem;
+    overflow: hidden;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.jingzhengli h4{
+    margin-top: 0.853rem;
+    font-size: 0.48rem;
+    margin-bottom: 0.32rem;
+    color: #4B86EE;
+}
+.jingzhengli>p{
+    font-size: 0.32rem;
+    color: #CFCFCF;
+    margin-bottom: 0.64rem;
+}
+.jingzhengli>div{
+    width: 10rem;
+}
+.jingzhengli>div>img{
+    width: 100%;
+}
+.tiaojian{
+    width: 8.013rem;
+    height: 1.067rem;
+    margin: 0 auto;
+    line-height:1.067rem;
+    font-size: 0.4rem;
+    margin-bottom: 0.853rem;
+    background-color: #4B86EE;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 0.267rem;
+}
+/*跳转*/
+.quanping{
+    width: 10rem;
+    height: 100%;
+    background-color:rgba(178,178,178,.3);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 99;
+    display: none;
+}
+.quanping-w{
+    width: 8.013rem;
+    padding-bottom: 0.88rem;
+    margin: 2rem  auto;
+    border-radius: 0.267rem;
+    background-color: #4B86EE;
+    overflow: hidden;
+}
+.quanping-w h4{
+    font-size: 0.48rem;
+    color: white;
+}
+.quanping-w h4:nth-child(1){
+    margin-top: 0.853rem;
+}
+.quanping-w>p{
+    font-size: 0.32rem;
+    color: white;
+}
+.quanping-w>p:nth-child(3){
+    margin-top: 0.333rem;
+}
+.quanping-w>p:nth-child(4){
+    margin-bottom: 0.667rem;
+}
+.quanping-w input{
+    display: block;
+    width:7.4rem;
+    height: 1.227rem;
+    margin: 0 auto 0.133rem auto;
+    font-size: 0.333rem;
+    outline: none;
+    border-radius: 0.267rem;
+}
+.quanping-w textarea{
+    display: block;
+    width:7.4rem;
+    height: 4.213rem;
+    margin: 0 auto;
+    font-size: 0.467rem;
+    outline: none;
+    border-radius: 0.267rem;
+    resize:none;
+}
+.quanping-w div{
+    cursor: pointer;
+    width:7.4rem;
+    height: 1.227rem;
+    line-height: 1.227rem;
+    font-size: 0.32rem;
+    margin: 0.133rem auto;
+    border-radius: 0.267rem;
+    color: whitesmoke;
+    background-color: #FFB600;
+}

@@ -1,0 +1,134 @@
+.banner {
+    width: 100%;
+    height: 7.333rem;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+/*理念*/
+.linian{
+    width: 100%;
+    height: 13.213rem;
+    background-color: #eee;
+    text-align: center;
+}
+.linian img{
+    width: 100%;
+    height: 10.84rem;
+    display: block;
+}
+.linian p{
+    font-size: 0.333rem;
+    color: #818181;
+}
+/*规划*/
+.guihua{
+    width: 100%;
+    height: 11.96rem;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.guihua h4{
+    font-size: 0.467rem;
+    margin-top: 0.867rem;
+    margin-bottom: 0.36rem;
+    color: #005B98;
+}
+.guihua p{
+    font-size: 0.267rem;
+}
+.guihua p:nth-child(4){
+    margin-bottom: 0.6rem;
+}
+.guihua img{
+    width: 100%;
+    height: 8.267rem;
+}
+/*<!--儿童体系-->*/
+.tixi{
+    -webkit-user-select: none;
+    width: 100%;
+    /*height: 10.827rem;*/
+    background-color: rgb(238,238,238);
+    overflow: hidden;
+    padding-bottom: 0.853rem;
+}
+.tixi .w{
+    width: 94%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tixi .w h4{
+    margin: 0.867rem 0 0.467rem 0;
+    font-size: 0.467rem;
+    color: #FFB600;
+}
+.tixi .w>p{
+    font-size: 0.267rem;
+    color: #6E6E6E;
+}
+.tixi .w .w-ul{
+    margin-top: 0.467rem;
+    width: 100%;
+    height: 1.507rem;
+}
+.tixi .w .w-ul ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tixi .w .w-ul li{
+    width: 23% ;
+    height: 100%;
+    border-radius: 0.133rem;
+    background-color:rgb(210,210,210);
+}
+.tixi .w .w-ul li p{
+    color:white;
+    font-size: 0.24rem;
+}
+.tixi .w .w-ul li h3{
+    margin-top: 0.267rem;
+    color: white;
+    font-size: 0.333rem;
+}
+
+.tixi .w .w-ul .blue{
+    background-color:  #FFB600;
+}
+.tixi .w .w-xiala{
+    width: 100%;
+    height: 5rem;
+}
+.tixi .w  .w-xiala div:nth-child(1){
+    width: 0;
+    height: 0;
+    border: 0.267rem solid;
+    border-color: transparent transparent #fff;
+    margin-top: -0.267rem;
+}
+.tixi .w  .w-xiala div:nth-child(2){
+    width: 100%;
+    height: 4.667rem;
+    border-radius: 0.267rem;
+    background-color: #fff;
+}
+.tixi .w .w-z2,.tixi .w .w-z3,.tixi .w .w-z4{
+    display: none;
+}
+.tixi .w  .w-xiala .w-xiala1{
+    margin-left: 0.8rem;
+}
+.tixi .w  .w-xiala .w-xiala2{
+    margin-left: 3.267rem;
+}
+.tixi .w  .w-xiala .w-xiala3{
+    margin-left: 5.627rem;
+}
+.tixi .w  .w-xiala .w-xiala4{
+    margin-left: 8.053rem;
+}

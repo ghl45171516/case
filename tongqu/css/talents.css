@@ -1,0 +1,112 @@
+.banner {
+    width: 100%;
+    height: 7.333rem;
+    text-align: center;
+    background: url("../image/Image 13.png") no-repeat ;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.banner>div{
+    width: 26%;
+    height: 0.827rem;
+    background-color: #fff;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+.banner>div div{
+    width: 95%;
+    height: 90%;
+    background-color: #428B27;
+    margin-left: 50%;
+    margin-top: 0.04rem;
+    transform: translateX(-50%);
+    font-size: 0.4rem;
+    color: #fff;
+}
+/*介绍*/
+.jieshao{
+    width: 100%;
+    height: 11.053rem;
+    background-color: #fff;
+    overflow: hidden;
+}
+.jieshao ul{
+    width: 93%;
+    margin: 0.867rem auto;
+    background-color: pink;
+    position: relative;
+}
+.jieshao ul li{
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+}
+.jieshao ul li img{
+    width: 100%;
+    height: 100%;
+}
+.jieshao ul li h4{
+    margin-top: 0.56rem;
+    margin-bottom: 0.133rem;
+    font-size: 0.333rem;
+}
+.jieshao ul li p{
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+}
+.jieshao ul li:nth-child(1){
+    width: 50%;
+    height: 2.667rem;
+    background-color: #FAE5B6;
+    top: 0;
+    left: 0;
+}
+.jieshao ul li:nth-child(4){
+    width: 50%;
+    height: 2.667rem;
+    background-color: #FBFCBA;
+    top: 2rem;
+    right: 0;
+}
+
+.jieshao ul li:nth-child(5){
+    width: 50%;
+    height: 2.667rem;
+    background-color: #FEE0E2;
+    top: 4.667rem;
+    left: 0;
+}
+.jieshao ul li:nth-child(8){
+    width: 50%;
+    height: 2.667rem;
+    background-color: #B6D8FD;
+    top: 6.667rem;
+    right: 0;
+}
+.jieshao ul li:nth-child(2){
+    width: 35%;
+    height: 2rem;
+    top: 0;
+    left: 50%;
+}
+.jieshao ul li:nth-child(3){
+    width: 35%;
+    height: 2rem;
+    top: 2.667rem;
+    right: 50%;
+}
+.jieshao ul li:nth-child(6){
+    width: 35%;
+    height: 2rem;
+    top: 4.667rem;
+    left: 50%;
+}
+.jieshao ul li:nth-child(7){
+    width: 35%;
+    height: 2rem;
+    top: 7.333rem;
+    right: 50%;
+}
+

@@ -1,0 +1,74 @@
+header{
+    width: 10rem;
+    height: 1.333rem;
+    background-color: #fff;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header img{
+    width: 33.33%;
+    height: 1.2rem;
+    float: left;
+    margin-top: 0.067rem;
+}
+header>div{
+    float: right;
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    line-height: 1.333rem;
+    font-size: 0.667rem;
+    color: #FFB600;
+}
+/*下拉单*/
+hgroup{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    display: none;
+    margin-top: 1.333rem;
+}
+hgroup>ul>li{
+    width: 10rem;
+    height: 1.067rem;
+    border-top: 0.013rem solid white;
+    line-height: 1.067rem;
+    color: #fff;
+    background-color: #F3AE3F;
+    font-size: 0.267rem;
+    box-sizing: border-box;
+}
+hgroup ul>li>a{
+    color: #fff;
+    font-size: 0.267rem;
+    margin-left: 0.267rem;
+}
+hgroup ul>li>span{
+    display: inline-block;
+    float: right;
+    top: 0;
+    right: 0.267rem;
+    width: 10%;
+    text-align: center;
+}
+hgroup .yincang{
+    width:10rem;
+    background-color: #F3AE3F;
+    display: none;
+}
+.yincang>p{
+    height: 0.667rem;
+    font-size: 0.24rem;
+    line-height:0.667rem;
+    margin-left: 0.533rem;
+}
+.yincang>p>a{
+    display: block;
+    width: 100%;
+    color: white;
+}
+
